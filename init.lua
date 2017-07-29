@@ -18,10 +18,10 @@ end
 
 local function set_bounds() -- {{{1
     local c = state.client
-    state.x_min = c.x + 1
-    state.x_max = c.x + c.width - 2
-    state.y_min = c.y + 1
-    state.y_max = c.y + c.height - 2
+    state.x_min = c.x + 2
+    state.x_max = c.x + c.width - 3
+    state.y_min = c.y + 2
+    state.y_max = c.y + c.height - 3
 end
 
 local function reposition() -- {{{1
